@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(./fonts/Poppins/Poppins-Regular.ttf);
+}
+
+body {
+    font-family: poppins;
+}
+
+.header-pair-btn-1 {
+    border-radius: 100px;
+    border: 1px solid #fff;
+    background: #fafafa;
+}
+
+.header-pair-btn-1:hover {
+    border: 1px solid #c1c1c1;
+    color: black;
+    background: #fff;
+    cursor: pointer;
+}
+
+
+.header-pair-btn-2 {
+    background: #fff;
+    border-radius: 100px;
+    border: 1px solid #c1c1c1;
+}
+
+.header-pair-btn-2:hover {
+    border: 1px solid #fff;
+    background: #fafafa;
+    cursor: pointer;
+}
+
+.search-form {
+    right: 200px;
+    top: 200px;
+}
+
+.search-field {
+    background-color: transparent;
+    background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    cursor: pointer;
+    height: 34px;
+    margin: 3px 0;
+    padding: 0px 10px 0px 34px;
+    position: relative;
+    -webkit-transition: width 400ms ease, background 400ms ease;
+    transition: width 400ms ease, background 400ms ease;
+    width: 0px;
+    cursor: pointer;
+}
+
+.search-field:focus {
+    background-color: #fff;
+    border: 2px solid #c3c0ab;
+    cursor: text;
+    outline: 0;
+    width: 250px;
+    color: #000;
+    border-radius: 100px;
+}
+
+.search-form .search-submit {
+    display: none;
+}
+
+.f-banner-bg {
+    background: linear-gradient(90deg, rgba(193, 222, 232, 1) 33%, rgba(255, 206, 138, 0.4962359943977591) 100%);
+    border-radius: 10px;
+}
+
+.form-control {
+    position: relative;
+    margin: 30px 0 20px;
+}
+
+.e-input {
+    border: 0;
+    border-radius: 50px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    display: block;
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    height: 60px;
+    padding: 12px 25px;
+    width: 100%;
+}
+
+.e-btn {
+    background-color: #312940;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 14px;
+    height: 60px;
+    padding: 12px 25px;
+    position: absolute;
+    top: 6px;
+    right: 12px;
+}
+
+.e-btn:hover {
+    opacity: 0.8;
+}
+
+.e-input:focus,
+.e-btn:focus {
+    outline: 0;
+}
+
+.orp-linear-bg-1 {
+    background-image:
+    linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%),
+    url('images/1.png');
+    width: 100%;
+    height: 239px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 12.4px;
+}
+.orp-linear-bg-2 {
+    background-image:
+    linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%),
+    url('images/2.png');
+    width: 100%;
+    height: 239px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 12.4px;
+}
+.orp-linear-bg-3 {
+    background-image:
+    linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%),
+    url('images/3.png');
+    width: 100%;
+    height: 239px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 12.4px;
+}
+
+.est-broker-pair-btn-1 {
+    border-radius: 100px;
+    border: 1px solid #fff;
+    background: #000;
+    color: white;
+}
+
+.est-broker-pair-btn-1:hover {
+    border: 1px solid #c1c1c1;
+    color: black;
+    background: #fafafa;
+    cursor: pointer;
+}
+
+
+.est-broker-pair-btn-2 {
+    background: #fafafa;
+    border-radius: 100px;
+    border: 1px solid #c1c1c1;
+}
+
+.est-broker-pair-btn-2:hover {
+    border: 1px solid #fff;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.est-broker-linear-bg {
+    background-image: linear-gradient(115.89deg, rgba(193, 222, 232, 0.7) 9.86%, rgba(255, 255, 255, 0) 52.13%, rgba(251, 217, 185, 0.7) 97.99%), url(images/4.png);
+    width: 494px;
+    height: 518px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 12.4px;
+    opacity: 0.7;
+}
